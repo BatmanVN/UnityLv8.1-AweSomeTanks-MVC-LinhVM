@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4121113567206091}
   - component: {fileID: 212886507647345273}
   - component: {fileID: 50951687317280749}
-  - component: {fileID: 58626202088454147}
   m_Layer: 14
   m_Name: LaserMirrorRound
   m_TagString: Mirror
@@ -108,22 +107,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &58626202088454147
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1771808856917218}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.37
 --- !u!1 &1950569649742709
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,12 +118,13 @@ GameObject:
   - component: {fileID: 4263315857806206}
   - component: {fileID: 33470547196768642}
   - component: {fileID: 23249333993645261}
+  - component: {fileID: 2907506366660021621}
   m_Layer: 0
   m_Name: RoundMirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4263315857806206
 Transform:
@@ -207,3 +191,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2907506366660021621
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950569649742709}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: a3e0b8adc2b712f4e9189e549f1feecf, type: 2}

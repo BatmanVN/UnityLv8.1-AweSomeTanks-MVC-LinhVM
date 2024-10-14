@@ -5,25 +5,25 @@ using UnityEngine;
 public class TankMove : MonoBehaviour
 {
     [SerializeField] private CharacterController tankController;
-    [SerializeField] private GameObject baseTank;
-    [SerializeField] private VariableJoystick joyStick;
-    [SerializeField] private float speed;
-    private void OnValidate() => tankController = GetComponent<CharacterController>();
+    [SerializeField] private VariableJoystick moveJoyStick;
+    [SerializeField] private float speedMove;
+    private Vector3 moveDirection;
+
+    public Vector3 MoveDirection { get => moveDirection;}
+
 
     public void MoveControl()
     {
-        float hInput = joyStick.Horizontal;
-        float vInput = joyStick.Vertical;
-        var direction = new Vector3(hInput, 0, vInput);
-        direction = Camera.main.transform.TransformDirection(direction);
-        direction.y = 0;
-        tankController.SimpleMove(direction * speed);
-        if (direction != Vector3.zero)
-        {
-            Quaternion targetRotate = Quaternion.LookRotation(direction);
-            targetRotate.eulerAngles = new Vector3(0f, targetRotate.eulerAngles.y,0f);
-            baseTank.transform.rotation = Quaternion.Slerp(baseTank.transform.rotation, targetRotate, 5 * Time.deltaTime);
-        }
+        float hInput = moveJoyStick.Horizontal;
+        float vInput = moveJoyStick.Vertical;
+        moveDirection = new Vector3(hInput, 0, vInput);
+        moveDirection = Camera.main.transform.TransformDirection(moveDirection);
+        moveDirection.y = 0;
+        tankController.SimpleMove(MoveDirection * speedMove);
+        //if (moveDirection == Vector3.zero)
+        //{
+        //    moveDirection = new Vector3(0, 0, 0);
+        //}
     }
     
 }

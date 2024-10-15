@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5156055303612131}
   - component: {fileID: 4161567953974931011}
   - component: {fileID: 503028464211105486}
-  - component: {fileID: 7232897063747701576}
+  - component: {fileID: 2381834513954140694}
   m_Layer: 6
   m_Name: SpecialWall
   m_TagString: Destroy
@@ -34,6 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4011903361722154}
+  - {fileID: 6571554444766082622}
   - {fileID: 5301724887328961296}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -125,7 +126,19 @@ MonoBehaviour:
       m_Calls: []
   onDie:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2381834513954140694}
+        m_TargetAssemblyTypeName: WallDestroy, Assembly-CSharp
+        m_MethodName: Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &503028464211105486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,7 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   surfaceType: 0
---- !u!114 &7232897063747701576
+--- !u!114 &2381834513954140694
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,17 +161,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1279089988249456}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 265a58c5a309ad5408c4faed2ebf114a, type: 3}
+  m_Script: {fileID: 11500000, guid: 286c355612018c84b931680bbc8c574e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 0}
-  health: {fileID: 0}
+  healthBar: {fileID: 70101380320996051}
+  health: {fileID: 4161567953974931011}
   gun: {fileID: 0}
+  point: {fileID: 511516425962361524}
   effectExplosive: {fileID: 0}
-  pointExplo: {fileID: 0}
-  radiusExplosion: 0
-  time: 0
-  dameExplosive: 0
+  time: 2
 --- !u!1 &1947343519411631
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,6 +253,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &511516425962361524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6571554444766082622}
+  m_Layer: 6
+  m_Name: Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6571554444766082622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511516425962361524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.082, y: -0.064, z: -0.551}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4036634011833469}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &7938887443392152982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -263,7 +305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2864037165365851782, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2864037165365851782, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}
       propertyPath: m_AnchorMax.x
@@ -347,6 +389,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}
+--- !u!1 &70101380320996051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7986453087361363781, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}
+  m_PrefabInstance: {fileID: 7938887443392152982}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &5301724887328961296 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2864037165365851782, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}

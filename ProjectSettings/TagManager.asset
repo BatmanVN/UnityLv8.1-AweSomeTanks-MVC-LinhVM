@@ -13,6 +13,7 @@ TagManager:
   - PlayersLaser
   - Destroy
   - EnemyTankBase
+  - Base
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - UI
   - Destroy
   - Wall
-  - 
+  - Base
   - 
   - 
   - 

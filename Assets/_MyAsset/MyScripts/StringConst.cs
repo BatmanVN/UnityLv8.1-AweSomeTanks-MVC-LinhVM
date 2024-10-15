@@ -8,4 +8,5 @@ public class StringConst
     public const string playerParaname = "Player";
     public const string wallParaname = "Wall";
     public const string destroyParaname = "Destroy";
+    public const string baseParaname = "Base";
 }

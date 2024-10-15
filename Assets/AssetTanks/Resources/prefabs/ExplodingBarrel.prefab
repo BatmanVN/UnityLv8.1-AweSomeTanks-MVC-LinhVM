@@ -104,7 +104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4891000821454223}
   m_Layer: 11
-  m_Name: Shadow
+  m_Name: PointEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118,7 +118,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683423012611516}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.67}
+  m_LocalPosition: {x: 0, y: -0.064, z: -0.697}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -367,10 +367,11 @@ MonoBehaviour:
   healthBar: {fileID: 8985698902728200758}
   health: {fileID: 4699242549851571129}
   gun: {fileID: 0}
+  point: {fileID: 1683423012611516}
   effectExplosive: {fileID: 1459541408873379, guid: 05c1e79e44d6f7c4faed4734025a5017, type: 3}
+  time: 2
   pointExplo: {fileID: 4891000821454223}
   radiusExplosion: 0
-  time: 2
   dameExplosive: 0
 --- !u!114 &2743190240377204460
 MonoBehaviour:

@@ -211,6 +211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 93
@@ -428,6 +432,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -881,6 +889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
+    - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4740096226186884, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_RootOrder
       value: 129
@@ -942,6 +954,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -1083,6 +1099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -1222,6 +1242,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -2455,6 +2479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
+    - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4740096226186884, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_RootOrder
       value: 131
@@ -3063,6 +3091,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -3280,6 +3312,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -3869,6 +3905,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1058972733}
     m_Modifications:
+    - target: {fileID: 956532403, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
+    - target: {fileID: 956532403, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: dameExplosive
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 956532403, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: radiusExplosion
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1967417597893921, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
       propertyPath: m_Name
       value: ExplodingBarrel
@@ -4012,6 +4060,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -4621,6 +4673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
+    - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4740096226186884, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_RootOrder
       value: 124
@@ -4838,6 +4894,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -5135,6 +5195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -5373,7 +5437,7 @@ Transform:
   - {fileID: 1974084101}
   - {fileID: 1481950094}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &178610935
 PrefabInstance:
@@ -5697,6 +5761,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -6072,6 +6140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 117
@@ -6133,6 +6205,10 @@ PrefabInstance:
     - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_Name
       value: Bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4740096226186884, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_RootOrder
@@ -6358,11 +6434,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4036634011833469, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.4
+      value: 22.48
       objectReference: {fileID: 0}
     - target: {fileID: 4036634011833469, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 4036634011833469, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6396,6 +6472,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 6116306795885392922, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
 --- !u!4 &214847671 stripped
@@ -7038,6 +7118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 86
@@ -7256,6 +7340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -7318,6 +7406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 72
@@ -7379,6 +7471,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -7676,6 +7772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -7883,6 +7983,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2435063662188136069, guid: 0e6b0796cbec37c4b85727f82e3ff787, type: 3}
   m_PrefabInstance: {fileID: 275232484}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &278093706 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4237655778763210, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
+  m_PrefabInstance: {fileID: 1279146650}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &284333167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7971,6 +8076,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -8111,6 +8220,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -8408,6 +8521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BushDesert
       objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
       value: 142
@@ -8469,6 +8586,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -8688,6 +8809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
+    - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4740096226186884, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_RootOrder
       value: 127
@@ -8749,6 +8874,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -9025,6 +9154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -9164,6 +9297,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -9617,6 +9754,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
+    - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4740096226186884, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_RootOrder
       value: 126
@@ -9991,6 +10132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -10130,6 +10275,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -10505,6 +10654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 82
@@ -10801,6 +10954,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -10951,11 +11108,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4450242651964694, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.368619
+      value: 3.49
       objectReference: {fileID: 0}
     - target: {fileID: 4450242651964694, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23.92689
+      value: 21.19
       objectReference: {fileID: 0}
     - target: {fileID: 4450242651964694, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11288,6 +11445,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &423642153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3593193196082285694, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
+  m_PrefabInstance: {fileID: 404006215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &423642157
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423642153}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4ce76f2ed6905aa40b0aa08baabdc5e5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &425790282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11845,6 +12028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BushDesert
       objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
       value: 148
@@ -11906,6 +12093,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -12281,6 +12472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 104
@@ -12343,6 +12538,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -12404,6 +12603,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -13091,6 +13294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -13153,6 +13360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -13214,6 +13425,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -13511,6 +13726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BushDesert
       objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
       value: 144
@@ -13572,6 +13791,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -13635,6 +13858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 119
@@ -13696,6 +13923,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -14388,6 +14619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -14683,6 +14918,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -15217,7 +15456,7 @@ GameObject:
   - component: {fileID: 566981492}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15237,7 +15476,7 @@ Transform:
   - {fileID: 4388202751403965}
   - {fileID: 1176740000}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &566981488
 CharacterController:
@@ -15269,7 +15508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f65abffc77836845b7f826066cde7cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateBaseSpeed: 5
+  rotateBaseSpeed: 3
   rotateTurretSpeed: 50
   moveControl: {fileID: 212444483162352508}
   shotControl: {fileID: 1176740001}
@@ -15286,8 +15525,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.80115473, z: 0.92736053}
-  m_Center: {x: 0, y: 0.3331731, z: -0.036319733}
+  m_Size: {x: 1, y: 0.80115473, z: 0.81295526}
+  m_Center: {x: 0, y: 0.3331731, z: -0.03976822}
 --- !u!1001 &572013097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15376,6 +15615,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -15569,6 +15812,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 538437752439842031, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
 --- !u!4 &584173402 stripped
@@ -15899,6 +16146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BushDesert
       objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
       value: 149
@@ -15960,6 +16211,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -16792,6 +17047,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2435063662188136069, guid: 0e6b0796cbec37c4b85727f82e3ff787, type: 3}
   m_PrefabInstance: {fileID: 625430038}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &626460431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 626460433}
+  - component: {fileID: 626460432}
+  m_Layer: 0
+  m_Name: BulletPoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &626460432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626460431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea08375da243a441b88d1e6b0713006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1555593953892787, guid: ee5003a6796bf844cb4f08f27bf93c09, type: 3}
+  notification: 3
+  strategy: 0
+  preload: 12
+  capacity: 12
+  recycle: 0
+  persist: 0
+  stamp: 0
+  warnings: 1
+  spawnedClonesList: []
+  despawnedClones: []
+  delays: []
+  deactivatedChild: {fileID: 0}
+--- !u!4 &626460433
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626460431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.949352, y: -3.141588, z: 8.997438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &626953181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16880,6 +17192,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -17487,6 +17803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -17715,7 +18035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4036634011833469, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 4036634011833469, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17749,6 +18069,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 6116306795885392922, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
 --- !u!4 &665519539 stripped
@@ -17845,6 +18169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -17906,6 +18234,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -18124,6 +18456,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -18730,14 +19066,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.28728926, y: 0.006121816, z: -0.26215693, w: 0.9212498}
+  m_LocalPosition: {x: 11.23, y: 11.59, z: -19.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 32.177, y: 710.524, z: -34.508}
 --- !u!1001 &709881704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18826,6 +19162,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -19200,6 +19540,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -19653,6 +19997,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 91
@@ -19789,14 +20137,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1331370819}
     m_Modifications:
-    - target: {fileID: 1082030164068798, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1082030164068798, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1601952678250345, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
       propertyPath: m_Name
       value: HarderBrickWall
@@ -19845,6 +20185,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 538437752439842031, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
 --- !u!4 &740999451 stripped
@@ -19940,6 +20284,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -20084,6 +20432,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -20620,6 +20972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -20681,6 +21037,10 @@ PrefabInstance:
     - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_Name
       value: Bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4740096226186884, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_RootOrder
@@ -20983,6 +21343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -21034,6 +21398,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
   m_PrefabInstance: {fileID: 794144147}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &794584685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794584686}
+  m_Layer: 0
+  m_Name: ------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &794584686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794584685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.949352, y: -3.141588, z: 8.997438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &797942384 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4632088206680742, guid: 379479141ff0f8944ba9c991a57f372e, type: 3}
@@ -21049,6 +21444,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -21268,6 +21667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BushDesert
       objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
       value: 137
@@ -21330,6 +21733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 112
@@ -21391,6 +21798,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -21609,6 +22020,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -22218,6 +22633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 100
@@ -22513,6 +22932,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -22810,6 +23233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LaserMirrorRound
       objectReference: {fileID: 0}
+    - target: {fileID: 1771808856917218, guid: dd7136b04405d0f4786e451488890ca1, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4121113567206091, guid: dd7136b04405d0f4786e451488890ca1, type: 3}
       propertyPath: m_RootOrder
       value: 157
@@ -23031,6 +23458,10 @@ PrefabInstance:
     - target: {fileID: 1369627715660206, guid: e4f91799971e96340af1ee548234de75, type: 3}
       propertyPath: m_Name
       value: IndestructibleCornerBottomRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1369627715660206, guid: e4f91799971e96340af1ee548234de75, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4022964691287900, guid: e4f91799971e96340af1ee548234de75, type: 3}
       propertyPath: m_RootOrder
@@ -23656,6 +24087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BushDesert
       objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
       value: 153
@@ -23717,6 +24152,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -23935,6 +24374,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -24428,6 +24871,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -25193,6 +25640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -25489,6 +25940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
+    - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4740096226186884, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_RootOrder
       value: 125
@@ -25550,6 +26005,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -25769,6 +26228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -25908,6 +26371,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -26126,6 +26593,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -26547,6 +27018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -26921,6 +27396,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 92
@@ -26982,6 +27461,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -27200,6 +27683,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -27809,6 +28296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 97
@@ -27870,6 +28361,10 @@ PrefabInstance:
     - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_Name
       value: Bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4740096226186884, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_RootOrder
@@ -28010,6 +28505,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -28229,6 +28728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 98
@@ -28291,6 +28794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -28352,6 +28859,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -29039,6 +29550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
+    - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4740096226186884, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_RootOrder
       value: 123
@@ -29369,7 +29884,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0feb6454785aa54abcd98b50523e755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletPool: {fileID: 626460432}
+  pointBulletAppear: {fileID: 4916413853032526}
+  dame: 10
+  speedBullet: 8
+  rpm: 600
+  timeDisable: 1
+  isLockedValue: 0
   shotJoystick: {fileID: 1610621962}
+  isShoting: 0
 --- !u!1001 &1177594834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29458,6 +29981,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -29598,6 +30125,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -29973,6 +30504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 61
@@ -30034,6 +30569,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -30643,6 +31182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LaserMirror
       objectReference: {fileID: 0}
+    - target: {fileID: 1386925894477068, guid: 830a37537cd40074f8509641165ce635, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4748119971729624, guid: 830a37537cd40074f8509641165ce635, type: 3}
       propertyPath: m_RootOrder
       value: 156
@@ -30716,6 +31259,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -31013,7 +31560,7 @@ GameObject:
   - component: {fileID: 1248535806}
   - component: {fileID: 1248535805}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: MapTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31048,7 +31595,38 @@ Transform:
   - {fileID: 1331370819}
   - {fileID: 1058972733}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1254189633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1254189634}
+  m_Layer: 0
+  m_Name: ------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1254189634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254189633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.949352, y: -3.141588, z: 8.997438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1255115740
 PrefabInstance:
@@ -31457,7 +32035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4450242651964694, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.936432
+      value: 10.26
       objectReference: {fileID: 0}
     - target: {fileID: 4450242651964694, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31493,6 +32071,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4450242651964694, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3593193196082285694, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -31585,6 +32167,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -31803,6 +32389,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -32607,6 +33197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BushDesert
       objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
       value: 136
@@ -32668,6 +33262,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -32886,6 +33484,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -33247,6 +33849,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -33753,6 +34359,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -34419,6 +35029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -34559,6 +35173,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 118
@@ -34698,6 +35316,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -35228,6 +35850,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -35836,6 +36462,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -36753,14 +37383,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1331370819}
     m_Modifications:
-    - target: {fileID: 1082030164068798, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1082030164068798, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1601952678250345, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
       propertyPath: m_Name
       value: HarderBrickWall
@@ -36809,6 +37431,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 538437752439842031, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
 --- !u!4 &1443917781 stripped
@@ -36905,6 +37531,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 75
@@ -36967,6 +37597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -37028,6 +37662,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -37315,6 +37953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 116
@@ -37376,6 +38018,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -37467,7 +38113,7 @@ Transform:
   - {fileID: 1493159432}
   - {fileID: 112801483}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1469233457
 PrefabInstance:
@@ -37703,6 +38349,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2435063662188136069, guid: 0e6b0796cbec37c4b85727f82e3ff787, type: 3}
   m_PrefabInstance: {fileID: 1471272308}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1471377607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1471377608}
+  m_Layer: 0
+  m_Name: ------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1471377608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471377607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.949352, y: -3.141588, z: 8.997438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1474779692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1474779693}
+  m_Layer: 0
+  m_Name: ------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1474779693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474779692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.949352, y: -3.141588, z: 8.997438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1476648244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37796,6 +38504,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -38093,6 +38805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 106
@@ -38238,6 +38954,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -38299,6 +39019,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -38406,6 +39130,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 6116306795885392922, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
 --- !u!4 &1515295332 stripped
@@ -38725,6 +39453,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2435063662188136069, guid: 0e6b0796cbec37c4b85727f82e3ff787, type: 3}
   m_PrefabInstance: {fileID: 1517122567}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1521549181
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 278093706}
+    m_Modifications:
+    - target: {fileID: 1975339191048207, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
+      propertyPath: m_Name
+      value: SpawnTop5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983899933595, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983899933595, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983899933595, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983899933595, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983899933595, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983899933595, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983899933595, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983899933595, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983899933595, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983899933595, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752983899933595, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
 --- !u!1001 &1522952505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39360,6 +40145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 84
@@ -39968,6 +40757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 85
@@ -40111,6 +40904,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -40643,13 +41440,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 566981485}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
+        - m_Target: {fileID: 1176740001}
+          m_TargetAssemblyTypeName: TurreDefault, Assembly-CSharp
+          m_MethodName: StartShot
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -40659,13 +41456,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 566981485}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
+        - m_Target: {fileID: 1176740001}
+          m_TargetAssemblyTypeName: TurreDefault, Assembly-CSharp
+          m_MethodName: StopShot
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -40837,6 +41634,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -41524,6 +42325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -41663,6 +42468,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -42194,6 +43003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 115
@@ -42479,6 +43292,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2435063662188136069, guid: 0e6b0796cbec37c4b85727f82e3ff787, type: 3}
   m_PrefabInstance: {fileID: 1685331699}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1691366665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1691366666}
+  m_Layer: 0
+  m_Name: ------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1691366666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691366665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.949352, y: -3.141588, z: 8.997438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1697041884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42802,6 +43646,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -42863,6 +43711,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -43773,6 +44625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 111
@@ -43912,6 +44768,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -44208,6 +45068,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -44616,6 +45480,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2435063662188136069, guid: 0e6b0796cbec37c4b85727f82e3ff787, type: 3}
   m_PrefabInstance: {fileID: 1784677486}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1786120056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1786120057}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1786120057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786120056}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.949352, y: -3.141588, z: 8.997438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1786215685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45017,6 +45912,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -45157,6 +46056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -45218,6 +46121,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -45437,6 +46344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 96
@@ -45498,6 +46409,10 @@ PrefabInstance:
     - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_Name
       value: BushDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593564281688635, guid: 6b344a96ee276214993d768e208c6656, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4080847733991593, guid: 6b344a96ee276214993d768e208c6656, type: 3}
       propertyPath: m_RootOrder
@@ -45561,6 +46476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -45622,6 +46541,10 @@ PrefabInstance:
     - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_Name
       value: Bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4740096226186884, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_RootOrder
@@ -45993,6 +46916,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1058972733}
     m_Modifications:
+    - target: {fileID: 956532403, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
+    - target: {fileID: 956532403, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: dameExplosive
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 956532403, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: radiusExplosion
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1967417597893921, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
       propertyPath: m_Name
       value: ExplodingBarrel
@@ -46011,7 +46946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4545547903819193, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.5
+      value: 15.04
       objectReference: {fileID: 0}
     - target: {fileID: 4545547903819193, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -46041,6 +46976,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 743136159768027182, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 963194227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
 --- !u!4 &1848167394 stripped
@@ -46058,6 +46997,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -46206,7 +47149,7 @@ RectTransform:
   - {fileID: 923151336}
   - {fileID: 1610621961}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -46301,6 +47244,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -47071,6 +48018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -47455,7 +48406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4036634011833469, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 4036634011833469, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -47489,6 +48440,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 6116306795885392922, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
 --- !u!4 &1899977135 stripped
@@ -47662,6 +48617,10 @@ PrefabInstance:
     - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_Name
       value: Bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591525710226736, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4740096226186884, guid: a207fa77bdd8bc449b5eb89346ca4d38, type: 3}
       propertyPath: m_RootOrder
@@ -48115,6 +49074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -48563,6 +49526,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1058972733}
     m_Modifications:
+    - target: {fileID: 956532402, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 956532403, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
+    - target: {fileID: 956532403, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: dameExplosive
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 956532403, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: radiusExplosion
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1967417597893921, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
       propertyPath: m_Name
       value: ExplodingBarrel
@@ -48573,7 +49552,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4545547903819193, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.5
+      value: 17.61
       objectReference: {fileID: 0}
     - target: {fileID: 4545547903819193, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -48785,6 +49764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 78
@@ -48846,6 +49829,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -49148,6 +50135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -49209,6 +50200,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -49472,6 +50467,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 6116306795885392922, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
 --- !u!4 &1981181312 stripped
@@ -49646,6 +50645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrackedIndestructibleWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
       value: 94
@@ -49707,6 +50710,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -49822,6 +50829,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 538437752439842031, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
 --- !u!4 &2005181645 stripped
@@ -50126,6 +51137,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 538437752439842031, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
 --- !u!4 &2011850944 stripped
@@ -50690,6 +51705,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -51142,6 +52161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 87
@@ -51282,6 +52305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 90
@@ -51343,6 +52370,10 @@ PrefabInstance:
     - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_Name
       value: IndestructableWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
@@ -51551,6 +52582,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2435063662188136069, guid: 0e6b0796cbec37c4b85727f82e3ff787, type: 3}
   m_PrefabInstance: {fileID: 2073204441}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2079133562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2079133563}
+  m_Layer: 0
+  m_Name: ------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2079133563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079133562}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.949352, y: -3.141588, z: 8.997438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2084649239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51639,6 +52701,10 @@ PrefabInstance:
     - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_Name
       value: CrackedIndestructibleWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104977009145136, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4152470214082439, guid: 36297929fec53994e8626c075b6b50b0, type: 3}
       propertyPath: m_RootOrder
@@ -51993,6 +53059,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -52341,6 +53411,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 538437752439842031, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ade026435369c24384e4c9dfb08fd77, type: 3}
 --- !u!4 &2119042927 stripped
@@ -52511,6 +53585,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1058972733}
     m_Modifications:
+    - target: {fileID: 956532403, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
+    - target: {fileID: 956532403, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: dameExplosive
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 956532403, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
+      propertyPath: radiusExplosion
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1967417597893921, guid: 5f3e11bba55640941a6ea9b51229fca8, type: 3}
       propertyPath: m_Name
       value: ExplodingBarrel
@@ -52621,6 +53707,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 6116306795885392922, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1176740001}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
 --- !u!4 &2128261784 stripped
@@ -52873,6 +53963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndestructableWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1354761365896201, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4405487777425696, guid: bd4da53d52ce41c4f81d222273a09aa8, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -53080,6 +54174,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2435063662188136069, guid: 0e6b0796cbec37c4b85727f82e3ff787, type: 3}
   m_PrefabInstance: {fileID: 2143538550}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2146488563 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1975339191048207, guid: 7a840239253900c4dbaeeba0d1699c4c, type: 3}
+  m_PrefabInstance: {fileID: 1521549181}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2146488567
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146488563}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4ce76f2ed6905aa40b0aa08baabdc5e5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &2146613086
 PrefabInstance:
   m_ObjectHideFlags: 0

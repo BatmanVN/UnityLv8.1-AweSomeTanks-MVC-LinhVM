@@ -20,10 +20,6 @@ public class TankMove : MonoBehaviour
         moveDirection = Camera.main.transform.TransformDirection(moveDirection);
         moveDirection.y = 0;
         tankController.SimpleMove(MoveDirection * speedMove);
-        //if (moveDirection == Vector3.zero)
-        //{
-        //    moveDirection = new Vector3(0, 0, 0);
-        //}
     }
     
 }

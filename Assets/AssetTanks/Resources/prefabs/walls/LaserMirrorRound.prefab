@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 2907506366660021621}
   m_Layer: 0
   m_Name: RoundMirror
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8

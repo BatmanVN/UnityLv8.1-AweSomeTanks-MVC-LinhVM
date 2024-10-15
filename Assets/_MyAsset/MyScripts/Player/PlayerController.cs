@@ -5,10 +5,9 @@ using UnityEngine;
 public class PlayerController : BaseTank
 {
     [SerializeField] private TankMove moveControl;
-    [SerializeField] private TankShot shotControl;
+    [SerializeField] private TurreDefault shotControl;
     [SerializeField] private GameObject baseTank;
     [SerializeField] private GameObject turretTank;
-    private Transform currentTransformTurret;
     private void Start()
     {
 
@@ -21,7 +20,14 @@ public class PlayerController : BaseTank
     protected void PlayerMove()
     {
         moveControl.MoveControl();
-        Rotate(moveControl.MoveDirection, baseTank);
+        if (moveControl.MoveDirection != Vector3.zero)
+        {
+            Rotate(moveControl.MoveDirection, baseTank);
+        }
+        else
+        {
+            baseTank.transform.rotation = baseTank.transform.rotation;
+        }
     }
     protected void PlayerShot()
     {
@@ -30,7 +36,6 @@ public class PlayerController : BaseTank
         {
             Quaternion targetRotation = Quaternion.LookRotation(shotControl.Target);
             turretTank.transform.rotation = Quaternion.Slerp(turretTank.transform.rotation, targetRotation, rotateTurretSpeed * Time.deltaTime);
-            turretTank.transform.rotation = turretTank.transform.rotation;
         }
         else
         {

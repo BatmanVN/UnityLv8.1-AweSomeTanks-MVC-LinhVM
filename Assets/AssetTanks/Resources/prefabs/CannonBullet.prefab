@@ -49,10 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTouch: 0
-  dame: 10
-  mask:
-    serializedVersion: 2
-    m_Bits: 64
+  hitWall: {fileID: 8953410189000069138, guid: 89a8a4049978c2243b7348c2001c6cbf, type: 3}
 --- !u!54 &4844176540078699944
 Rigidbody:
   m_ObjectHideFlags: 0

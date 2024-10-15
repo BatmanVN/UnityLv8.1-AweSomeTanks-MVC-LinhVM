@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 33267661747086918}
   - component: {fileID: 23049372521344671}
   - component: {fileID: 6919896858039297262}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 3DAvatar
   m_TagString: Wall
   m_Icon: {fileID: 0}

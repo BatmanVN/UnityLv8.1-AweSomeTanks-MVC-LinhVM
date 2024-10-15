@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33359633352917244}
   - component: {fileID: 23048894083085416}
   - component: {fileID: 486201500359861930}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 3DAvatar
   m_TagString: Wall
   m_Icon: {fileID: 0}

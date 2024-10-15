@@ -39,13 +39,14 @@ public class ObjectDestroy : MonoBehaviour
     }
     public void Destroy()
     {
-        Instantiate(effectExplosive, pointExplo.position, Quaternion.identity);
+        GameObject explosive =  Instantiate(effectExplosive, pointExplo.position, Quaternion.identity);
         Collider[] affectedObj = Physics.OverlapSphere(pointExplo.position, radiusExplosion);
         for (int i = 0; i < affectedObj.Length; i++)
         {
             DeliverDame(affectedObj[i]);
         }
         Destroy(this.gameObject);
+        Destroy(explosive, 1.5f);
     }
     private void DeliverDame(Collider victim)
     {

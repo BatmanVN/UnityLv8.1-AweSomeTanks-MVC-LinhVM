@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 212461745244923099}
   - component: {fileID: 5156055303612131}
   - component: {fileID: 4161567953974931011}
+  - component: {fileID: 503028464211105486}
+  - component: {fileID: 7232897063747701576}
   m_Layer: 6
   m_Name: SpecialWall
   m_TagString: Destroy
@@ -124,6 +126,39 @@ MonoBehaviour:
   onDie:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &503028464211105486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279089988249456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a426b003f4bbf345ac4529011979d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceType: 0
+--- !u!114 &7232897063747701576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279089988249456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265a58c5a309ad5408c4faed2ebf114a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
+  health: {fileID: 0}
+  gun: {fileID: 0}
+  effectExplosive: {fileID: 0}
+  pointExplo: {fileID: 0}
+  radiusExplosion: 0
+  time: 0
+  dameExplosive: 0
 --- !u!1 &1947343519411631
 GameObject:
   m_ObjectHideFlags: 0

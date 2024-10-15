@@ -95,6 +95,8 @@ GameObject:
   - component: {fileID: 212381928706087668}
   - component: {fileID: 86734289795532377}
   - component: {fileID: 3381194181359420891}
+  - component: {fileID: 2954604078900374941}
+  - component: {fileID: 8668871190052708218}
   m_Layer: 6
   m_Name: HarderBrickWall
   m_TagString: Destroy
@@ -207,6 +209,39 @@ MonoBehaviour:
   onDie:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2954604078900374941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601952678250345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a426b003f4bbf345ac4529011979d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceType: 0
+--- !u!114 &8668871190052708218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601952678250345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265a58c5a309ad5408c4faed2ebf114a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
+  health: {fileID: 0}
+  gun: {fileID: 0}
+  effectExplosive: {fileID: 0}
+  pointExplo: {fileID: 0}
+  radiusExplosion: 0
+  time: 0
+  dameExplosive: 0
 --- !u!1001 &89270434292180110
 PrefabInstance:
   m_ObjectHideFlags: 0

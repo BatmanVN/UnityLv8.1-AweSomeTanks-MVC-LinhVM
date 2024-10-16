@@ -13,10 +13,12 @@ public class EnemyController : BaseTank
     //[SerializeField] private GameObject hitEffect;
     [SerializeField] protected Istate<EnemyController> currentState;
     [SerializeField] private float radius;
+    public float radiusRandom;
+    protected Vector3 directionRandom;
     public bool isTakedDame;
     public bool isDetected;
-    public bool isMoving;
-    public bool isAttack;
+    //public bool isMoving;
+    //public bool isAttack;
     public NavMeshAgent Nav { get => nav;}
     public GameObject Enemy { get => enemy; set => enemy = value; }
     public bool IsTakedDame { get => isTakedDame; set => isTakedDame = value; }
@@ -101,7 +103,27 @@ public class EnemyController : BaseTank
         {
             health.TakeDame(gun.Dame);
             IsTakedDame = false;
+            enemy = gun.gameObject.GetComponentInParent<PlayerController>().gameObject;
         }
+    }
+    public void MoveRandom()
+    {
+        Vector3 randomPoint = SetRandomPostion(3f);
+        MoveToPoint(randomPoint);
+        nav.stoppingDistance = 0f;
+        Quaternion direction = Quaternion.LookRotation(randomPoint - transform.position);
+        transform.rotation = Quaternion.Slerp(transform.rotation, direction, rotateBaseSpeed * UnityEngine.Time.deltaTime);
+        Debug.Log("run");
+    }
+    public Vector3 SetRandomPostion(float radius)
+    {
+        directionRandom = Random.insideUnitSphere * radius;
+        directionRandom += transform.position;
+        if (NavMesh.SamplePosition(directionRandom, out NavMeshHit hit, radius, 1))
+        {
+            return hit.position;
+        }
+        return transform.position;
     }
     public void EnableHealthBar()
     {

@@ -11,7 +11,7 @@ public class RunState : Istate<EnemyController>
 
     public void OnExercute(EnemyController enemy)
     {
-        if (enemy.Enemy != null && enemy.isDetected)
+        if (enemy.Enemy != null || enemy.isDetected || enemy.isTakedDame)
         {
             enemy.MoveToPoint(enemy.Enemy.transform.position);
             enemy.Attack();

@@ -208,6 +208,7 @@ GameObject:
   - component: {fileID: 23520567455542720}
   - component: {fileID: 23947987163164345}
   - component: {fileID: 700633449359104481}
+  - component: {fileID: 6776610917607396671}
   m_Layer: 0
   m_Name: 3DAvatar
   m_TagString: Destroy
@@ -307,6 +308,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wallEffect: {fileID: 0}
   wallPoint: {fileID: 4011903361722154}
+--- !u!65 &6776610917607396671
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947343519411631}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0337125, y: 1.0586582, z: 1.0000002}
+  m_Center: {x: -0.00020825863, y: -0.00041353703, z: 0.5}
 --- !u!1 &511516425962361524
 GameObject:
   m_ObjectHideFlags: 0

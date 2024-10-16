@@ -2438,6 +2438,7 @@ MonoBehaviour:
   point: {fileID: 1636222010984927}
   effectExplosive: {fileID: 0}
   time: 2
+  barHealth: {fileID: 2502862603568301903}
 --- !u!1 &1636222010984927
 GameObject:
   m_ObjectHideFlags: 0
@@ -7516,6 +7517,7 @@ MonoBehaviour:
   enemyPrefab: {fileID: 1328692530908546840, guid: f8b61269bbdabcd43bbe8793ef8fa98e, type: 3}
   enemiesCount: 5
   spawnInterval: 1.5
+  baseEnemy: {fileID: 0}
 --- !u!135 &2422873516664451487
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7864,6 +7866,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2864037165365851782, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}
   m_PrefabInstance: {fileID: 2569562577994959413}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2502862603568301903 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 77440571153223034, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}
+  m_PrefabInstance: {fileID: 2569562577994959413}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5583759060877452656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3fcb170d3aa5854ea7845cc95bfd84d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5583759060877452656 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7986453087361363781, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}

@@ -54,8 +54,9 @@ public class PlayerController : BaseTank
     }
     protected void TakeDame()
     {
-        if (takeDame.isAttacked)
+        if (takeDame.isAttacked )
         {
+            if (GameObject.FindGameObjectWithTag(StringConst.enemyCanon).GetComponent<EnemyTurret>() == null) return;
             gun = GameObject.FindGameObjectWithTag(StringConst.enemyCanon).GetComponent<EnemyTurret>();
             health.TakeDame(gun.GetComponent<EnemyTurret>().Dame);
             takeDame.isAttacked = false;

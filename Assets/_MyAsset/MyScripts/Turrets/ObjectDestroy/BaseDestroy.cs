@@ -4,22 +4,16 @@ using UnityEngine;
 
 public class BaseDestroy : ObjectDestroy
 {
+    [SerializeField] protected HealthBar barHealth;
     private Coroutine bar;
     private bool beAttack;
 
-    private void OnCollisionEnter(Collision oil)
+    private void OnTriggerEnter(Collider oil)
     {
-        if (oil.gameObject.CompareTag(StringConst.bulletParaname))
+        if (oil.CompareTag(StringConst.bulletPlayer))
         {
             healthBar.SetActive(true);
             beAttack = true;
-        }
-    }
-    private void OnCollisionExit(Collision oil)
-    {
-        if (oil.gameObject.CompareTag(StringConst.bulletParaname))
-        {
-            bar = StartCoroutine(DeActiveBar());
         }
     }
     private void TakeDame()
@@ -28,6 +22,8 @@ public class BaseDestroy : ObjectDestroy
         {
             health.TakeDame(gun.Dame);
             beAttack = false;
+            bar = StartCoroutine(DeActiveBar());
+            barHealth.UpdateHealthBar(health.HealthPoint,health.MaxHealth);
         }
     }
     public void Destroy()

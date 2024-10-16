@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23755696590601613}
   - component: {fileID: 7268973981396008475}
   - component: {fileID: 2201205096065444607}
+  - component: {fileID: 2794405835816228286}
   m_Layer: 0
   m_Name: BrickWall
   m_TagString: Destroy
@@ -112,6 +113,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wallEffect: {fileID: 2760437427346390307, guid: 63b2a23eb54e8894dac8706e90fc90e9, type: 3}
   wallPoint: {fileID: 4619441254215668}
+--- !u!65 &2794405835816228286
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082030164068798}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0578321, y: 1.0592687, z: 1.0481626}
+  m_Center: {x: -0.0039013028, y: -0.008363964, z: 0.5058264}
 --- !u!1 &1601952678250345
 GameObject:
   m_ObjectHideFlags: 0

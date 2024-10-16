@@ -105,7 +105,7 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.1
+    agentRadius: 0.4
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
@@ -11337,6 +11337,22 @@ PrefabInstance:
       propertyPath: enemiesCount
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5994515847593192465, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
+      propertyPath: onTakeDame.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994515847593192465, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
+      propertyPath: onTakeDame.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994515847593192465, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
+      propertyPath: onTakeDame.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1974084103}
+    - target: {fileID: 5994515847593192465, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
+      propertyPath: onTakeDame.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 551776107101345895, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
@@ -15643,7 +15659,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566981485}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.6, y: 0.09, z: -11.1}
+  m_LocalPosition: {x: 10.6, y: 0.09, z: 0.56}
   m_LocalScale: {x: 1, y: 1, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17896,7 +17912,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650063169}
   m_LocalRotation: {x: 0.35647777, y: -0.61067474, z: 0.3505244, w: 0.6141113}
-  m_LocalPosition: {x: 16.2, y: 7.9900002, z: -9.1}
+  m_LocalPosition: {x: 16.2, y: 7.9900002, z: 2.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24895,7 +24911,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.35647777, y: -0.61067474, z: 0.3505244, w: 0.6141113}
-  m_LocalPosition: {x: 16.2, y: 7.9900002, z: -9.1}
+  m_LocalPosition: {x: 16.2, y: 7.9900002, z: 2.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49012,6 +49028,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpecialWall
       objectReference: {fileID: 0}
+    - target: {fileID: 1947343519411631, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011903361722154, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011903361722154, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 4036634011833469, guid: 75f0cd9b946b75b48a299685e10fe1aa, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -50735,6 +50763,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18c53bff9a8f463408e361510cc4f5a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1974084103 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3001712365110844456, guid: 1b9d3e5ff48651e4299a3077f44a3ad2, type: 3}
+  m_PrefabInstance: {fileID: 404006215}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2791e9e6762bf28478ac8c1110ca3a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1975575946

@@ -9,4 +9,7 @@ public class StringConst
     public const string wallParaname = "Wall";
     public const string destroyParaname = "Destroy";
     public const string baseParaname = "Base";
+    public const string enemyParaname = "Enemy";
+    public const string enemyCanon = "EnemyCannon";
+    public const string bulletPlayer = "BulletPlayer";
 }

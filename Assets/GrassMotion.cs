@@ -17,7 +17,6 @@ public class GrassMotion : MonoBehaviour
             if (player.GetComponent<CharacterController>().velocity.magnitude > 0.1f)
             {
                 anim.SetBool("Swaying", true);
-                Debug.Log((player.GetComponent<CharacterController>().velocity.magnitude));
             }
             else
             {

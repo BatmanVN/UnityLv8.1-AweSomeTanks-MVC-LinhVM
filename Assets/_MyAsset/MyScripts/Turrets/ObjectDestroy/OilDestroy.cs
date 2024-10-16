@@ -6,21 +6,13 @@ public class OilDestroy : ObjectDestroy
 {
     [SerializeField] private float radiusExplosion;
     [SerializeField] protected float dameExplosive;
-    private Coroutine bar;
     private bool beAttack;
-    private void OnCollisionEnter(Collision oil)
+    private void OnTriggerEnter(Collider oil)
     {
-        if (oil.gameObject.CompareTag(StringConst.bulletParaname))
+        if (oil.CompareTag(StringConst.bulletPlayer))
         {
             healthBar.SetActive(true);
             beAttack = true;
-        }
-    }
-    private void OnCollisionExit(Collision oil)
-    {
-        if (oil.gameObject.CompareTag(StringConst.bulletParaname))
-        {
-            bar = StartCoroutine(DeActiveBar());
         }
     }
     private void TakeDame()
@@ -60,14 +52,20 @@ public class OilDestroy : ObjectDestroy
         Health health = victim.GetComponent<Health>();
         if (health != null)
         {
+            if (victim.gameObject.CompareTag(StringConst.playerParaname))
+            {
+                dameExplosive = 15f;
+            }
+            if (victim.gameObject.CompareTag(StringConst.destroyParaname))
+            {
+                dameExplosive = 50f;
+            }
+            if (victim.gameObject.CompareTag(StringConst.enemyParaname))
+            {
+                dameExplosive = 25f;
+            }
             health.TakeDame(dameExplosive);
         }
-    }
-    private IEnumerator DeActiveBar()
-    {
-        yield return new WaitForSeconds(time);
-        healthBar.SetActive(false);
-        StopCoroutine(bar);
     }
     private void Update()
     {

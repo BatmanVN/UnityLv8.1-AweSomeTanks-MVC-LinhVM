@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4619441254215668}
   - component: {fileID: 33805504326497271}
   - component: {fileID: 23755696590601613}
+  - component: {fileID: 7268973981396008475}
+  - component: {fileID: 2201205096065444607}
   m_Layer: 0
   m_Name: BrickWall
   m_TagString: Destroy
@@ -83,6 +85,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7268973981396008475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082030164068798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a426b003f4bbf345ac4529011979d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surfaceType: 3
+--- !u!114 &2201205096065444607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082030164068798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0955868880468354e86badef72e5b742, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallEffect: {fileID: 2760437427346390307, guid: 63b2a23eb54e8894dac8706e90fc90e9, type: 3}
+  wallPoint: {fileID: 4619441254215668}
 --- !u!1 &1601952678250345
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,12 +235,36 @@ MonoBehaviour:
       m_Calls: []
   onTakeDame:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6484895196763647498}
+        m_TargetAssemblyTypeName: WallDestroy, Assembly-CSharp
+        m_MethodName: EnableHealthBar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onDie:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6484895196763647498}
         m_TargetAssemblyTypeName: WallDestroy, Assembly-CSharp
+        m_MethodName: Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2201205096065444607}
+        m_TargetAssemblyTypeName: BrickShard, Assembly-CSharp
         m_MethodName: Destroy
         m_Mode: 1
         m_Arguments:
@@ -253,6 +306,7 @@ MonoBehaviour:
   point: {fileID: 2304011659609444736}
   effectExplosive: {fileID: 0}
   time: 2
+  bar: {fileID: 13010755874236916}
 --- !u!1 &2304011659609444736
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,6 +443,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}
+--- !u!114 &13010755874236916 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 77440571153223034, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}
+  m_PrefabInstance: {fileID: 89270434292180110}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8063891088467872715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3fcb170d3aa5854ea7845cc95bfd84d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &2774846686345548296 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2864037165365851782, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}

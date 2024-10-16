@@ -4,6 +4,7 @@ using UnityEngine;
 using Lean.Pool;
 public class Gun : MonoBehaviour
 {
+    [SerializeField] protected Animator anim;
     [SerializeField] protected LeanGameObjectPool bulletPool;
     [SerializeField] protected Transform pointBulletAppear;
     [SerializeField] private float dame;
@@ -11,7 +12,6 @@ public class Gun : MonoBehaviour
     [SerializeField] protected float rpm;
     [SerializeField] protected float timeDisable;
     [SerializeField] private bool isLockedValue;
-
     public bool IsLockedValue
     {
         get => isLockedValue;

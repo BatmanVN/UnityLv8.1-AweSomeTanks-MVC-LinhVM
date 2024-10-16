@@ -140,8 +140,8 @@ GameObject:
   m_Name: OilAvatar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4258742362090208
 Transform:
@@ -368,10 +368,9 @@ MonoBehaviour:
   health: {fileID: 4699242549851571129}
   gun: {fileID: 0}
   point: {fileID: 1683423012611516}
-  effectExplosive: {fileID: 1459541408873379, guid: 05c1e79e44d6f7c4faed4734025a5017, type: 3}
+  effectExplosive: {fileID: 0}
   time: 2
-  pointExplo: {fileID: 4891000821454223}
-  radiusExplosion: 0
+  radiusExplosion: 2
   dameExplosive: 0
 --- !u!114 &2743190240377204460
 MonoBehaviour:
@@ -397,9 +396,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.4
-  m_Height: 1.5977259
+  m_Height: 1.2695183
   m_Direction: 2
-  m_Center: {x: 0, y: -1.0109143e-15, z: -0.4288631}
+  m_Center: {x: 0, y: 1.321141e-15, z: -0.5929669}
 --- !u!1001 &1325757379052420467
 PrefabInstance:
   m_ObjectHideFlags: 0

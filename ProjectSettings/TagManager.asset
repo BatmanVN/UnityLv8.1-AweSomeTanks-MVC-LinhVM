@@ -10,10 +10,15 @@ TagManager:
   - NoSeeThrough
   - Bullet
   - Wall
-  - PlayersLaser
   - Destroy
   - EnemyTankBase
   - Base
+  - PlayerCannon
+  - Enemy
+  - EnemyCannon
+  - BulletEnemy
+  - Tank
+  - BulletPlayer
   layers:
   - Default
   - TransparentFX

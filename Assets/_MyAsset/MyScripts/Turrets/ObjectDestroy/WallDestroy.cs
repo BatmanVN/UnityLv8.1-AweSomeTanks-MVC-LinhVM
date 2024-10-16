@@ -4,22 +4,13 @@ using UnityEngine;
 
 public class WallDestroy : ObjectDestroy
 {
-    private Coroutine bar;
+    [SerializeField] private HealthBar bar;
     private bool beAttack;
-
-    private void OnCollisionEnter(Collision oil)
+    private void OnTriggerEnter(Collider oil)
     {
-        if (oil.gameObject.CompareTag(StringConst.bulletParaname))
+        if (oil.CompareTag(StringConst.bulletPlayer))
         {
-            healthBar.SetActive(true);
             beAttack = true;
-        }
-    }
-    private void OnCollisionExit(Collision oil)
-    {
-        if (oil.gameObject.CompareTag(StringConst.bulletParaname))
-        {
-            bar = StartCoroutine(DeActiveBar());
         }
     }
     private void TakeDame()
@@ -29,6 +20,11 @@ public class WallDestroy : ObjectDestroy
             health.TakeDame(gun.Dame);
             beAttack = false;
         }
+    }
+    public void EnableHealthBar()
+    {
+        healthBar.SetActive(true);
+        bar.UpdateHealthBar(health.HealthPoint, health.MaxHealth);
     }
     public void Destroy()
     {
@@ -44,12 +40,6 @@ public class WallDestroy : ObjectDestroy
         }
         Destroy(this.gameObject);
         Destroy(effectExplosive, 1.5f);
-    }
-    private IEnumerator DeActiveBar()
-    {
-        yield return new WaitForSeconds(time);
-        healthBar.SetActive(false);
-        StopCoroutine(bar);
     }
     private void Update()
     {

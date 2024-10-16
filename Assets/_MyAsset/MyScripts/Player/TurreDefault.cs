@@ -39,6 +39,7 @@ public class TurreDefault : Gun
         if (isShoting)
         {
             AddProjecttile();
+            anim.SetTrigger("Shot");
         }
     }
     //Despawn truyen vao prefab dc sinh ra , va se bien mat sau 1s

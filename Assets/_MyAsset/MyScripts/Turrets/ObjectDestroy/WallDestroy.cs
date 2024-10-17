@@ -4,27 +4,10 @@ using UnityEngine;
 
 public class WallDestroy : ObjectDestroy
 {
-    [SerializeField] private HealthBar bar;
-    private bool beAttack;
-    private void OnTriggerEnter(Collider oil)
-    {
-        if (oil.CompareTag(StringConst.bulletPlayer))
-        {
-            beAttack = true;
-        }
-    }
-    private void TakeDame()
-    {
-        if (beAttack)
-        {
-            health.TakeDame(gun.Dame);
-            beAttack = false;
-        }
-    }
     public void EnableHealthBar()
     {
         healthBar.SetActive(true);
-        bar.UpdateHealthBar(health.HealthPoint, health.MaxHealth);
+        healthBar.GetComponent<HealthBar>().UpdateHealthBar(health.HealthPoint, health.MaxHealth);
     }
     public void Destroy()
     {
@@ -43,6 +26,6 @@ public class WallDestroy : ObjectDestroy
     }
     private void Update()
     {
-        TakeDame();
+
     }
 }

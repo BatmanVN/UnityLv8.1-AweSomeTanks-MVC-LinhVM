@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    public void Play(string nameScene)
+    private void Start()
     {
-        SceneManager.LoadSceneAsync(nameScene);
+        Time.timeScale = 1f;
+    }
+    public void PlayOrBack(string nameScene)
+    {
+       SceneManager.LoadSceneAsync(nameScene);
     }
 }

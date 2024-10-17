@@ -5,7 +5,6 @@ using UnityEngine.AI;
 
 public class PlayerController : BaseTank
 {
-    [SerializeField] protected PlayerTakeDame takeDame;
     [SerializeField] private TankMove moveControl;
     [SerializeField] private TurreDefault shotControl;
     [SerializeField] private GameObject smokeEffect;
@@ -17,7 +16,6 @@ public class PlayerController : BaseTank
     {
         PlayerMove();
         PlayerShot();
-        TakeDame();
     }
     protected void PlayerMove()
     {
@@ -50,16 +48,6 @@ public class PlayerController : BaseTank
             {
                 turretTank.transform.rotation = turretTank.transform.rotation;
             }
-        }
-    }
-    protected void TakeDame()
-    {
-        if (takeDame.isAttacked )
-        {
-            if (GameObject.FindGameObjectWithTag(StringConst.enemyCanon).GetComponent<EnemyTurret>() == null) return;
-            gun = GameObject.FindGameObjectWithTag(StringConst.enemyCanon).GetComponent<EnemyTurret>();
-            health.TakeDame(gun.GetComponent<EnemyTurret>().Dame);
-            takeDame.isAttacked = false;
         }
     }
     public void Destroy()

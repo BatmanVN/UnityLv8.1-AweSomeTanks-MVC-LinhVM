@@ -12,4 +12,8 @@ public class HitEffectManager : SingletonDontdestroy<HitEffectManager>
         HitEffectMapper mapper = effectMap.Find(effect => effect.surface == surfaceType);
         return mapper?.effectPrefab;
     }
+    private void Start()
+    {
+        
+    }
 }

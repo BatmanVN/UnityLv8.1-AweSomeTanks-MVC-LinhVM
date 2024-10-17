@@ -24,9 +24,11 @@ public class SpawnEnemies : MonoBehaviour
         int randomSpawn = Random.Range(0,spawnPoint.Count);
         if (spawnPoint[randomSpawn] != null)
         {
-            Instantiate(enemyPrefab, spawnPoint[randomSpawn].position, spawnPoint[randomSpawn].rotation);
+            GameObject tank = Instantiate(enemyPrefab, spawnPoint[randomSpawn].position, spawnPoint[randomSpawn].rotation);
             enemiesCount--;
             spawnPoint.RemoveAt(randomSpawn);
+            TankManager.Instance.AddTank(tank);
+
         }
     }
     private void OnTriggerEnter(Collider detective)

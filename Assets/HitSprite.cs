@@ -5,6 +5,7 @@ using UnityEngine;
 public class HitSprite : MonoBehaviour
 {
     [SerializeField] private GameObject effect;
+    [SerializeField] private AudioSource hitSound;
     Transform cameraTransform;
     private void LateUpdate()
     {
@@ -14,12 +15,13 @@ public class HitSprite : MonoBehaviour
     {
         cameraTransform = Camera.main.transform;
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag(StringConst.bulletParaname))
+        if (other.gameObject.CompareTag(StringConst.bulletPlayer))
         {
             effect.SetActive(true);
             Invoke(nameof(DeActive), .3f);
+            hitSound.Play();
         }
     }
     public void DeActive()

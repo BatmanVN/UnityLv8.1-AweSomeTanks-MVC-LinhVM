@@ -1,17 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Lean.Pool;
 
 public class EnemyTurret : Gun
 {
     private float interval;
     private float lastShot;
     [SerializeField] private bool isShoting;
+    [SerializeField] private GameObject effectShot;
     private Vector3 target;
     public Vector3 Target { get => target; }
     private void Start()
     {
         interval = 60f / rpm;
+        bulletPool = GameObject.FindGameObjectWithTag("EnemyPool").GetComponent<LeanGameObjectPool>();
     }
     private void Update()
     {
@@ -23,7 +26,13 @@ public class EnemyTurret : Gun
         {
             lastShot = Time.time;
             Shot();
+            effectShot.SetActive(true);
+            Invoke(nameof(DeActive), 0.15f);
         }
+    }
+    public void DeActive()
+    {
+        effectShot.SetActive(false);
     }
     protected void Shot()
     {

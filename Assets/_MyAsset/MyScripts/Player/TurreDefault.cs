@@ -5,6 +5,7 @@ using UnityEngine;
 public class TurreDefault : Gun
 {
     [SerializeField] private VariableJoystick shotJoystick;
+    [SerializeField] private AudioSource shotSound; 
     private float interval;
     private float lastShot;
     [SerializeField] private bool isShoting;
@@ -53,11 +54,13 @@ public class TurreDefault : Gun
     public void StartShot()
     {
         isShoting = true;
+        shotSound.Play();
     }
 
     public void StopShot()
     {
         isShoting = false;
+        shotSound.Stop();
     }
 
 }

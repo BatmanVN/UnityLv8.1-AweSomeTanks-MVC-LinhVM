@@ -20,7 +20,10 @@ public class Health : MonoBehaviour
             onHealthChangeValue?.Invoke(healthPoint, MaxHealth);
         }
     }
-
+    private void Start()
+    {
+        
+    }
     public float MaxHealth { get => maxHealth;}
 
     private void Awake()

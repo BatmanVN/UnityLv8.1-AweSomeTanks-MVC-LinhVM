@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class BaseTank : MonoBehaviour
 {
-    [SerializeField] protected Gun gun;
+    [SerializeField] private Gun gun;
     [SerializeField] protected GameObject baseTank;
     [SerializeField] protected GameObject turretTank;
     [SerializeField] protected Health health;
     [SerializeField] private GameObject healthBar;
     [SerializeField] protected Transform explosivePoint;
     [SerializeField] protected GameObject exploPrefab;
+    [SerializeField] protected Animator anim;
     [SerializeField] private float time;
     [SerializeField] protected float rotateBaseSpeed;
     [SerializeField] protected float rotateTurretSpeed;
@@ -18,6 +19,7 @@ public class BaseTank : MonoBehaviour
 
     public GameObject HealthBar { get => healthBar; set => healthBar = value; }
     public float Time { get => time; set => time = value; }
+    public Gun Gun { get => gun; set => gun = value; }
 
     public void Rotate(Vector3 target, GameObject baseTank)
     {

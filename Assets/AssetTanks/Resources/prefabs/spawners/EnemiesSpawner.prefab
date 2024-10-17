@@ -7230,6 +7230,7 @@ GameObject:
   - component: {fileID: 4254543072440041}
   - component: {fileID: 33601544198193232}
   - component: {fileID: 23141850970947872}
+  - component: {fileID: 5160836542533632013}
   m_Layer: 0
   m_Name: 3DPointSpawn
   m_TagString: Untagged
@@ -7302,6 +7303,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &5160836542533632013
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896637539709383}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.50200003, z: 0.040000003}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0.040000003}
+  m_TimeToStationary: 0.5
 --- !u!1 &1986070891362481
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,22 +6,14 @@ public class OilDestroy : ObjectDestroy
 {
     [SerializeField] private float radiusExplosion;
     [SerializeField] protected float dameExplosive;
-    private bool beAttack;
-    private void OnTriggerEnter(Collider oil)
+    private void Start()
     {
-        if (oil.CompareTag(StringConst.bulletPlayer))
-        {
-            healthBar.SetActive(true);
-            beAttack = true;
-        }
+
     }
-    private void TakeDame()
+    public void EnableHealthBar()
     {
-        if (beAttack)
-        {
-            health.TakeDame(gun.Dame);
-            beAttack = false;
-        }
+        healthBar.SetActive(true);
+        healthBar.GetComponent<HealthBar>().UpdateHealthBar(health.HealthPoint, health.MaxHealth);
     }
     public void Destroy()
     {
@@ -69,7 +61,7 @@ public class OilDestroy : ObjectDestroy
     }
     private void Update()
     {
-        TakeDame();
+
     }
     private void OnDrawGizmos()
     {

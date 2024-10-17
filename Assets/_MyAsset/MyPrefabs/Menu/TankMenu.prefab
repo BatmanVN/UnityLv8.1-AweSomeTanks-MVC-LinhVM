@@ -40,7 +40,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591886708399682497}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc493f2e675d79741b2283c88f3e286d, type: 3}
   m_Name: 
@@ -54,6 +54,7 @@ MonoBehaviour:
   timeDisable: 1
   isLockedValue: 0
   isShoting: 0
+  effectShot: {fileID: 0}
 --- !u!1 &2610312003150601269
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,7 +299,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4669093191541587112}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eea08375da243a441b88d1e6b0713006, type: 3}
   m_Name: 
@@ -365,6 +366,10 @@ MonoBehaviour:
   randomMaterials:
   - {fileID: 2100000, guid: 63accd47a6fba164b832854d442fde4c, type: 2}
   - {fileID: 2100000, guid: 3eddee36f0f40fc4a92c36cb4ed6068b, type: 2}
+  - {fileID: 2100000, guid: 69c3c648559bfd34eaae3ff327107596, type: 2}
+  - {fileID: 2100000, guid: a7c2868437eddf248a6deb329de23d8e, type: 2}
+  - {fileID: 2100000, guid: 2c57751e748651a4c9bd8f9f48e8cf5e, type: 2}
+  - {fileID: 2100000, guid: c37be6ad65a89fb48889627465fcdf16, type: 2}
 --- !u!33 &3380580599155423245
 MeshFilter:
   m_ObjectHideFlags: 0

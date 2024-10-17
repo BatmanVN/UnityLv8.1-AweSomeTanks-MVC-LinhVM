@@ -19,6 +19,8 @@ TagManager:
   - BulletEnemy
   - Tank
   - BulletPlayer
+  - EnemyPool
+  - Loading
   layers:
   - Default
   - TransparentFX

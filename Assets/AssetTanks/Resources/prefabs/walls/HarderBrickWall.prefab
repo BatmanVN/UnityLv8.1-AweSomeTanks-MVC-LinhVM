@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7268973981396008475}
   - component: {fileID: 2201205096065444607}
   - component: {fileID: 2794405835816228286}
+  - component: {fileID: 2217923066711842123}
   m_Layer: 0
   m_Name: BrickWall
   m_TagString: Destroy
@@ -126,6 +127,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0578321, y: 1.0592687, z: 1.0481626}
   m_Center: {x: -0.0039013028, y: -0.008363964, z: 0.5058264}
+--- !u!208 &2217923066711842123
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082030164068798}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.52900004, y: 0.53000003, z: 0.52400005}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.004, y: -0.008, z: 0.50600004}
+  m_TimeToStationary: 0.5
 --- !u!1 &1601952678250345
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,7 +337,6 @@ MonoBehaviour:
   point: {fileID: 2304011659609444736}
   effectExplosive: {fileID: 0}
   time: 2
-  bar: {fileID: 13010755874236916}
 --- !u!1 &2304011659609444736
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,17 +473,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}
---- !u!114 &13010755874236916 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 77440571153223034, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}
-  m_PrefabInstance: {fileID: 89270434292180110}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8063891088467872715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3fcb170d3aa5854ea7845cc95bfd84d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &2774846686345548296 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2864037165365851782, guid: b92b6690b64a0b94da5c01daf1f7c0c0, type: 3}

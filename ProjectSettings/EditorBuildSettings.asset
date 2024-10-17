@@ -6,15 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_MyAsset/My_Scene/MainMenu.unity
+    path: Assets/_MyAsset/My_Scene/FinishScene/MainMenu.unity
     guid: 70711a03a8097884d97610b1af94ae21
   - enabled: 1
-    path: Assets/_MyAsset/My_Scene/LevelSelection.unity
+    path: Assets/_MyAsset/My_Scene/FinishScene/LevelSelection.unity
     guid: e1023da946c5fc84cb852b379bd36af3
   - enabled: 1
-    path: Assets/_MyAsset/My_Scene/LoadingScene.unity
-    guid: ccb5bc91005c0a341a849c9eb9f38408
-  - enabled: 1
-    path: Assets/_MyAsset/My_Scene/Map1.unity
+    path: Assets/_MyAsset/My_Scene/FinishScene/Map1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

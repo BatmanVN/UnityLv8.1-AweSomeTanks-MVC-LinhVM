@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 public class EnemyController : BaseTank
 {
@@ -10,15 +11,13 @@ public class EnemyController : BaseTank
     [SerializeField] private HealthBar bar;
     [SerializeField] private GameObject enemy;
     [SerializeField] private GameObject smokerEffect;
-    //[SerializeField] private GameObject hitEffect;
+    [SerializeField] private TankCount tank;
     [SerializeField] protected Istate<EnemyController> currentState;
     [SerializeField] private float radius;
     public float radiusRandom;
-    protected Vector3 directionRandom;
     public bool isTakedDame;
     public bool isDetected;
-    //public bool isMoving;
-    //public bool isAttack;
+    protected Vector3 directionRandom;
     public NavMeshAgent Nav { get => nav;}
     public GameObject Enemy { get => enemy; set => enemy = value; }
     public bool IsTakedDame { get => isTakedDame; set => isTakedDame = value; }
@@ -27,16 +26,13 @@ public class EnemyController : BaseTank
     private void Start()
     {
         ChangeState(new IdleState());
-        gun = GameObject.FindGameObjectWithTag(StringConst.playerParaname).GetComponentInChildren<TurreDefault>();
     }
 
     private void Update()
     {
-        TakeDame();
         StateControl();
         CheckEnemy();
     }
-
     public void ChangeState(Istate<EnemyController> newState)
     {
         if (currentState != null)
@@ -59,8 +55,11 @@ public class EnemyController : BaseTank
             nav.SetDestination(target);
             nav.stoppingDistance = 5f;
         }
+        else
+        {
+            isTakedDame = false;
+        }
     }
-
     public void CheckEnemy()
     {
         Collider[] detective = Physics.OverlapSphere(baseTank.transform.position, radius);
@@ -97,13 +96,12 @@ public class EnemyController : BaseTank
             turret.UpdateFiring();
         }
     }
-    protected void TakeDame()
+    private void OnTriggerEnter(Collider tank)
     {
-        if (IsTakedDame)
+        if (tank.CompareTag(StringConst.bulletPlayer))
         {
-            health.TakeDame(gun.Dame);
-            IsTakedDame = false;
-            enemy = gun.gameObject.GetComponentInParent<PlayerController>().gameObject;
+            enemy = GameObject.FindGameObjectWithTag(StringConst.playerParaname);
+            isTakedDame = true;
         }
     }
     public void MoveRandom()
@@ -113,7 +111,6 @@ public class EnemyController : BaseTank
         nav.stoppingDistance = 0f;
         Quaternion direction = Quaternion.LookRotation(randomPoint - transform.position);
         transform.rotation = Quaternion.Slerp(transform.rotation, direction, rotateBaseSpeed * UnityEngine.Time.deltaTime);
-        Debug.Log("run");
     }
     public Vector3 SetRandomPostion(float radius)
     {
@@ -132,6 +129,7 @@ public class EnemyController : BaseTank
     }
     public void Destroy()
     {
+        this.enabled = false;
         HitSurface hitSurface = this.gameObject.GetComponent<HitSurface>();
         if (hitSurface != null)
         {
@@ -142,7 +140,7 @@ public class EnemyController : BaseTank
                 exploPrefab = Instantiate(effectPrefab, transform.position, effectRotation);
             }
         }
-        Destroy(this.gameObject);
+        Destroy(this.gameObject,0.5f);
         Destroy(exploPrefab, Time);
     }
     private void OnDrawGizmos()

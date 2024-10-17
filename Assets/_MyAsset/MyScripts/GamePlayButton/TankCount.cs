@@ -7,6 +7,7 @@ public class TankCount : Singleton<TankCount>
 {
     [SerializeField] private int count;
     [SerializeField] protected Text text;
+    public Text condition;
 
     public int Count { get => count;}
 
@@ -14,10 +15,9 @@ public class TankCount : Singleton<TankCount>
     {
         count++;
         text.text = Count.ToString();
-        Debug.Log(Count);
     }
     private void Update()
     {
-
+        
     }
 }

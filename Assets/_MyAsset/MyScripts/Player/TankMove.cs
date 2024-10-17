@@ -7,7 +7,6 @@ public class TankMove : MonoBehaviour
     [SerializeField] private CharacterController tankController;
     [SerializeField] private VariableJoystick moveJoyStick;
     [SerializeField] private float speedMove;
-    [SerializeField] protected AudioSource run;
     private Vector3 moveDirection;
 
     public Vector3 MoveDirection { get => moveDirection;}

@@ -27,7 +27,6 @@ public class LoadingScene : MonoBehaviour
         if (loadingOperation.isDone && finsihTime >= 1f)
         {
             DestroyLoading();
-            Debug.Log(finsihTime);
         }
     }
     private void DestroyLoading()

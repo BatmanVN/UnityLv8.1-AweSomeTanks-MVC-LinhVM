@@ -12,19 +12,18 @@ public class TankManager : Singleton<TankManager>
     {
         tanks.Add(enemy);
     }
-    //public void CheckTanks()
-    //{
-    //    for(int i = 0; i< tanks.Count; i++)
-    //    {
-    //        if (tanks[i] == null)
-    //        {
-    //            tanks.RemoveAt(i);
-    //            TankCount.Instance.CheckTank();
-    //        }
-    //    }
-    //}
+    public void CheckTanks()
+    {
+        for (int i = 0; i < tanks.Count; i++)
+        {
+            if (tanks[i] == null)
+            {
+                tanks.RemoveAt(i);
+            }
+        }
+    }
     private void Update()
     {
-        //CheckTanks();
+        CheckTanks();
     }
 }

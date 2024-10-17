@@ -7,13 +7,14 @@ public class CompletedLevel : MonoBehaviour
     [SerializeField] private BaseMission baseMission;
     [SerializeField] protected GameObject missionComplete;
     [SerializeField] protected GameObject effect;
-    [SerializeField] protected AudioSource win;
     public void WinLevel()
     {
-        if (baseMission.Count >= 2 && TankCount.Instance.Count >= 8)
+        if ((baseMission.Count == 2 && TankCount.Instance.Count >= 8) 
+            || (baseMission.Count == 2 && TankManager.Instance.Tanks.Count <= 0))
         {
+            TankCount.Instance.condition.text = TankCount.Instance.Count.ToString();
             missionComplete.SetActive(true);
-            effect.SetActive(true);
+            MusicGame.Instance.music.PlayDelayed(4f);
         }
     }
     private void Update()

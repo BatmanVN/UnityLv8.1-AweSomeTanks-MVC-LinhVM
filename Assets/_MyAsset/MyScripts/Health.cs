@@ -35,6 +35,7 @@ public class Health : MonoBehaviour
         if (isDead) return;
         HealthPoint -= dame;
         onTakeDame?.Invoke();
+     
         if (isDead)
         {
             Dead();

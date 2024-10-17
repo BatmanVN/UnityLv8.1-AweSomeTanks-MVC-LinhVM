@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MusicGame : SingletonDontdestroy<MusicGame>
 {
-    [SerializeField] private AudioSource music;
+    public AudioSource music;
     private bool isMute;
     private void Start()
     {
